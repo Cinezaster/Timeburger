@@ -13,6 +13,9 @@
 		C9F4956A1709C28D0061D8B6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9F495681709C28D0061D8B6 /* Credits.rtf */; };
 		C9F4956D1709C28D0061D8B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F4956C1709C28D0061D8B6 /* AppDelegate.m */; };
 		C9F495701709C28D0061D8B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F4956E1709C28D0061D8B6 /* MainMenu.xib */; };
+		C9F495771709C2BC0061D8B6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F495761709C2BC0061D8B6 /* WebKit.framework */; };
+		C9F495791709C2FF0061D8B6 /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F495781709C2FF0061D8B6 /* IOBluetoothUI.framework */; };
+		C9F4957C1709C7970061D8B6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C9F4957B1709C7970061D8B6 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		C9F4956B1709C28D0061D8B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9F4956C1709C28D0061D8B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C9F4956F1709C28D0061D8B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C9F495761709C2BC0061D8B6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C9F495781709C2FF0061D8B6 /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = SDKROOT; };
+		C9F4957B1709C7970061D8B6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F495791709C2FF0061D8B6 /* IOBluetoothUI.framework in Frameworks */,
+				C9F495771709C2BC0061D8B6 /* WebKit.framework in Frameworks */,
 				C9F4955A1709C28D0061D8B6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +54,9 @@
 		C9F4954D1709C28D0061D8B6 = {
 			isa = PBXGroup;
 			children = (
+				C9F4957A1709C6F10061D8B6 /* htdocs */,
+				C9F495781709C2FF0061D8B6 /* IOBluetoothUI.framework */,
+				C9F495761709C2BC0061D8B6 /* WebKit.framework */,
 				C9F4955F1709C28D0061D8B6 /* Timeburger */,
 				C9F495581709C28D0061D8B6 /* Frameworks */,
 				C9F495571709C28D0061D8B6 /* Products */,
@@ -102,6 +113,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C9F4957A1709C6F10061D8B6 /* htdocs */ = {
+			isa = PBXGroup;
+			children = (
+				C9F4957B1709C7970061D8B6 /* index.html */,
+			);
+			path = htdocs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,6 +175,7 @@
 				C9F495641709C28D0061D8B6 /* InfoPlist.strings in Resources */,
 				C9F4956A1709C28D0061D8B6 /* Credits.rtf in Resources */,
 				C9F495701709C28D0061D8B6 /* MainMenu.xib in Resources */,
+				C9F4957C1709C7970061D8B6 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
